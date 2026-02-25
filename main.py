@@ -6,6 +6,7 @@ import time
 import requests
 import re
 import json
+import asyncio
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, ContextTypes, CallbackQueryHandler
